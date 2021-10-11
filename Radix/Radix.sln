@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radix.Api", "Radix.Api\Radix.Api.csproj", "{B6C2F4B5-F133-417C-90C2-139536CB4F29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{81700A5C-F943-4F6B-9ED3-328CD475B16A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{FB5EEC81-47B8-4D2E-BC28-40868B69C570}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{1EEA920E-925B-4EE2-BA01-FB241CC2B585}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{BDF1A236-0A38-4F4D-9CCE-5D06CEC78A27}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radix.Infra.Data", "Radix.Infra.Data\Radix.Infra.Data.csproj", "{431C2106-3CDD-4508-B94F-5A01B8137E5D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radix.Domain", "Radix.Domain\Radix.Domain.csproj", "{A475BA97-CE81-47F4-A187-8B49E33DB56F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radix.Service", "Radix.Service\Radix.Service.csproj", "{7057DDE0-0E14-4ED6-BEFE-4159695C2D46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Radix.Service.Test", "Radix.Service.Test\Radix.Service.Test.csproj", "{5CC73FBD-26EB-4727-A258-860DA51A4962}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6C2F4B5-F133-417C-90C2-139536CB4F29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6C2F4B5-F133-417C-90C2-139536CB4F29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6C2F4B5-F133-417C-90C2-139536CB4F29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6C2F4B5-F133-417C-90C2-139536CB4F29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{431C2106-3CDD-4508-B94F-5A01B8137E5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{431C2106-3CDD-4508-B94F-5A01B8137E5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{431C2106-3CDD-4508-B94F-5A01B8137E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{431C2106-3CDD-4508-B94F-5A01B8137E5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A475BA97-CE81-47F4-A187-8B49E33DB56F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A475BA97-CE81-47F4-A187-8B49E33DB56F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A475BA97-CE81-47F4-A187-8B49E33DB56F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A475BA97-CE81-47F4-A187-8B49E33DB56F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7057DDE0-0E14-4ED6-BEFE-4159695C2D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7057DDE0-0E14-4ED6-BEFE-4159695C2D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7057DDE0-0E14-4ED6-BEFE-4159695C2D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7057DDE0-0E14-4ED6-BEFE-4159695C2D46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CC73FBD-26EB-4727-A258-860DA51A4962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC73FBD-26EB-4727-A258-860DA51A4962}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC73FBD-26EB-4727-A258-860DA51A4962}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC73FBD-26EB-4727-A258-860DA51A4962}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B6C2F4B5-F133-417C-90C2-139536CB4F29} = {81700A5C-F943-4F6B-9ED3-328CD475B16A}
+		{431C2106-3CDD-4508-B94F-5A01B8137E5D} = {BDF1A236-0A38-4F4D-9CCE-5D06CEC78A27}
+		{A475BA97-CE81-47F4-A187-8B49E33DB56F} = {FB5EEC81-47B8-4D2E-BC28-40868B69C570}
+		{7057DDE0-0E14-4ED6-BEFE-4159695C2D46} = {1EEA920E-925B-4EE2-BA01-FB241CC2B585}
+		{5CC73FBD-26EB-4727-A258-860DA51A4962} = {1EEA920E-925B-4EE2-BA01-FB241CC2B585}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57D31452-880F-468E-B17B-D2321CBF555E}
+	EndGlobalSection
+EndGlobal
