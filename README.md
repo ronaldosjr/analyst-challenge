@@ -1,4 +1,4 @@
-# Desafio para vaga de analista pleno/sênior
+# Desafio para vaga de analista sênior
 
 ## Instruções
 Necessário um computador com docker instalado.
